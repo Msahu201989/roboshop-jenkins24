@@ -2,7 +2,7 @@
 <flow-definition plugin="workflow-job@1254.v3f64639b_11dd">
     <actions>
         <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction                                                                                                              plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5"/>
-        <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobProper                                                                                                             tyTrackerAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5">
+        <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition                                                                                                             tyTrackerAction plugin="pipeline-model-definition@2.2118.v31fd5b_9944b_5">
             <jobProperties/>
             <triggers/>
             <parameters/>
