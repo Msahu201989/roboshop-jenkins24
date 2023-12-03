@@ -22,12 +22,11 @@
         <data>
             <jenkins.branch.BranchSource>
                 <source class="jenkins.plugins.git.GitSCMSource" plugin="git@4.13.0">
-                    <id>b939d6ae-c420-4c25-bbc0-265bc9506932</id>
-                    <remote>https://github.com/Msahu201989/cart.git</remote>
+                    <id>b2a48d68-d8e2-4cb0-b39f-18aab794e9c8</id>
+                    <remote>https://github.com/Msahu201989/cart</remote>
                     <credentialsId></credentialsId>
                     <traits>
                         <jenkins.plugins.git.traits.BranchDiscoveryTrait/>
-                        <jenkins.plugins.git.traits.TagDiscoveryTrait/>
                     </traits>
                 </source>
                 <strategy class="jenkins.branch.DefaultBranchPropertyStrategy">
