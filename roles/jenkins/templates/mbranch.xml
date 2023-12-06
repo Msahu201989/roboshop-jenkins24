@@ -2,7 +2,6 @@
 <org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject plugin="workflow-multibranch@716.vc692a_e52371b_">
     <actions/>
     <description></description>
-    <displayName></displayName>
     <properties/>
     <folderViews class="jenkins.branch.MultiBranchProjectViewHolder" plugin="branch-api@2.1051.v9985666b_f6cc">
         <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
