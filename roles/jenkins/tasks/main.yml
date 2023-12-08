@@ -1,6 +1,6 @@
 - name: Create a Multi Branch Pipeline
   community.general.jenkins_job:
-    config: "{{ lookup('file', 'templates/folder.xml') }}"
+    config: "{{ lookup('template', 'templates/folder.xml') }}"
     name: "{{ item.name }}"
     password: admin123
     url: http://172.31.37.106:8080
