@@ -22,8 +22,8 @@
         <data>
             <jenkins.branch.BranchSource>
                 <source class="jenkins.plugins.git.GitSCMSource" plugin="git">
-                    <id>010b7da6-a5ba-4e79-ad9c-c3c408b5291c</id>
-                    <remote>https://github.com/Msahu201989/{{item.name}}</remote>
+                    <id>1047688f-b5d2-4da6-a263-62653a1e8111</id>
+                    <remote>https://github.com/Msahu201989/learning-jenkins.git</remote>
                     <credentialsId></credentialsId>
                     <traits>
                         <jenkins.plugins.git.traits.BranchDiscoveryTrait/>
