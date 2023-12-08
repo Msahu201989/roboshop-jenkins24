@@ -5,7 +5,7 @@
 
 - name: Create a Multi Branch pipelines
   community.general.jenkins_job:
-    config: "{{ lookup('template', '/tmp/mbranch.xml') }}"
+    config: "{{ lookup('file', '/tmp/mbranch.xml') }}"
     name: "ci-pipelines/{{item.name}}"
     password: admin123
     url: http://172.31.37.106:8080
